@@ -1,2 +1,2 @@
 # DevWellOpenSource
-An open source
+An open source project for creating and sharing coding learning resources.

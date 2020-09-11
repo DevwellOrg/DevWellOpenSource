@@ -1,5 +1,5 @@
 {
-  "lessonTitle": "This is a test lesson",
+  "lessonTitle": "This is a Spargle Glargle",
   "lessonDescription":
     "This is a lesson designed to test slack's ability to handle doing stuff about thingies.",
   "lessonQuiz": {
@@ -14,6 +14,14 @@
         "question": "How old is Josh?",
         "type": "input",
         "correctAnswer": "68"
+      },
+      {
+        "question": "What tag is the best?",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": [
+          "div", "p", "span"
+        ],
+        "correctAnswer": "div"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "lessonTitle": "This is a Spargle Glargle",
+  "lessonTitle": "This is a Spargle Glarglz",
   "lessonDescription":
     "This is a lesson designed to test slack's ability to handle doing stuff about thingies.",
   "lessonQuiz": {
@@ -22,6 +22,14 @@
           "div", "p", "span"
         ],
         "correctAnswer": "div"
+      },
+      {
+        "question": "Who is the best DevWell founder?",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": [
+          "Richard", "Josh"
+        ],
+        "correctAnswer": "Richard"
       }
     ]
   }

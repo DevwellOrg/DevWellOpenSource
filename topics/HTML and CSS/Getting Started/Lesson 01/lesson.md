@@ -1,8 +1,8 @@
-# Lesson 1
-## Course Acceptance Criteria
-As a user, I want to be able to see up to date career information about a software developer.
+# Course Acceptance Criteria
+*As a user, I want to be able to see up to date career information about a software developer.*
 
 ---
+# Lesson 1
 
 Right! Hi. Welcome. So, in this course, we are going to use HTML and CSS to build a basic webpage that can act as a starting developers resume.
 

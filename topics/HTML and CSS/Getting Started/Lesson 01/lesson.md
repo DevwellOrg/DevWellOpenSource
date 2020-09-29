@@ -1,6 +1,10 @@
-# Lesson 1 - Start Trek
+# Lesson 1
+## Course Acceptance Criteria
+As a user, I want to be able to see up to date career information about a software developer.
 
-Right! Hi. Welcome. So, you are about do something that we have gone through ourselves. That is, take the first small step into the world of software development.
+---
+
+Right! Hi. Welcome. So, in this course, we are going to use HTML and CSS to build a basic webpage that can act as a starting developers resume.
 
 At this stage, everything is going to be very hand-holdy and basic. Don't worry though, it won't be like this for much longer...
 
@@ -13,13 +17,13 @@ Things to remember:
 
 1. This is just the beginning...
 2. If you're stuck, Google it. Or DuckDuckGo it. Googling is absolutely a key skill for a developer.
-3. Some of what follows may seem like sneaky shortcuts. Well those sneaky shortcuts are what professional developers (like us!) use on a daily basis. There's no shame in it. Some people will suggest typing out all of the html code yourself until you understand the 'first principles'. I disagree. Shortcuts are amazing and 'first principles' in coding are never actually 'first'. This is a practical course, focussed on giving you the ability to actually 'do stuff'. Stuff that someone will be willing to pay you for. You will learn quickest by doing. And then doing again. And again. It is known...
+3. Don't worry about first principles. You will learn by doing.
 
 # Let's get started
 
 - Install VSCode - https://code.visualstudio.com/
-- Create a folder called `mysite_alpha`
-- Open `mysite_alpha` in VSCode
+- Create a folder (on your Desktop is probably the easiest place to put it) called `myResume`
+- Open `myResume` in VSCode
 - Create a file called index.html
 - Type `html` and you'll see a magic box appear. Select the option `html:5`
   ![HTML Emmet](./images/htmlEmmet.png "HTML Emmet")
@@ -36,8 +40,9 @@ Things to remember:
   <body></body>
 </html>
 ```
+If not, just copy and paste this into the file.
 
-- Change the title to `MySite Alpha`
+- Change the title to `My Resume`
 - Inside the `body` type `Hi, welcome to my site.`
 
 ```html
@@ -46,7 +51,7 @@ Things to remember:
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MySite Alpha</title>
+    <title>My Resume</title>
   </head>
   <body>
     Hi, welcome to my site.
@@ -54,9 +59,8 @@ Things to remember:
 </html>
 ```
 
-- Save the file. It's probably worth turning on [autosave](https://www.google.com/search?q=vscode+turn+on+autosave&oq=vscode+turn+on+autosave&aqs=chrome..69i57j0l5j69i60.4663j0j7&sourceid=chrome&ie=UTF-8) at this point.
-- Open the file in explorer / finder (right-click on the index.html tab)
-  ![OpenInExplorer](./images/openInExplorer.png "Open in Explorer")
+- Save the file.
+- Navigate to the index.html file in the folder on your Desktop.
 - Open the file in your browser
 - BEHOLD!
   ![welcome](./images/welcome.png "Hi, welcome to my site.")

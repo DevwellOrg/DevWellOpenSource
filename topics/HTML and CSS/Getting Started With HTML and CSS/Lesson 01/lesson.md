@@ -116,8 +116,14 @@ Well done! You have welcomed people to your new site. Well, nearly... People can
 - CSS
 - Code Editors
 
-# Links
+# Course Links
 
 - https://code.visualstudio.com/
 - https://www.w3schools.com/html/html_basic.asp
 - https://www.w3schools.com/html/html_css.asp
+- https://www.w3schools.com/html/html5_semantic_elements.asp
+- https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto:wght@300;500
+- https://www.rapidtables.com/web/css/css-color.html#white
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://css-tricks.com/snippets/css/complete-guide-grid/
+- https://www.w3schools.com/cssref/css3_pr_mediaquery.asp

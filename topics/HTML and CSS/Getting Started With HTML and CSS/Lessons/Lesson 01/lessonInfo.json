@@ -1,27 +1,30 @@
 {
   "lessonTitle": "Lesson 01",
   "lessonDescription":
-    "The starting point for students building their own developer resume website.",
+    "A starting point for students building their own developer resume website.",
   "lessonQuiz": {
     "questions": [
       {
-        "question": "What is the Capital of Denmark?",
+        "question": "Where in html code does the browser tab title live?",
         "type": "multipleChoice",
-        "multipleChoiceAnswers": ["Laputa", "London", "Lilliput"],
-        "correctAnswer": "Laputa"
+        "multipleChoiceAnswers": ["head", "body"],
+        "correctAnswer": "head"
       },
       {
-        "question": "How old is Josh?",
+        "question": "Where in html code does you put the site content?",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": ["head", "body"],
+        "correctAnswer": "body"
+      },
+      {
+        "question": "To add a css stylesheet to my html, I need to create a __________ .",
+        "multipleChoiceAnswers": ["meta", "link", "title", "script"],
+        "correctAnswer": "link"
+      },
+      {
+        "question": "To make text appear yellow, I need to type `_____ : yellow;` in my css file",
         "type": "input",
-        "correctAnswer": "68"
-      },
-      {
-        "question": "What tag is the best?",
-        "type": "multipleChoice",
-        "multipleChoiceAnswers": [
-          "div", "p", "span"
-        ],
-        "correctAnswer": "div"
+        "correctAnswer": "color"
       }
     ]
   }

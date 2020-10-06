@@ -25,7 +25,7 @@ Things to remember:
 - Create a folder (on your Desktop is probably the easiest place to put it) called `myResume`
 - Open `myResume` in VSCode
 - Create a file called index.html
-- Type `html` and you'll see a magic box appear. Select the option `html:5`
+- Inside that file, type `html` and you'll see a magic box appear. Select the option `html:5`
   ![HTML Emmet](./images/htmlEmmet.png "HTML Emmet")
 - Your code should now look like this:
 
@@ -66,7 +66,6 @@ If not, just copy and paste this into the file.
   ![welcome](./images/welcome.png "Hi, welcome to my site.")
 - Okay, that's not VERY exciting...
 - Notice that tab title matches your HTML title <br/>
-  ![tabTitle](./images/tabTitle.png "Tab Title")
 
 ## Now to add some styles
 
@@ -80,7 +79,7 @@ If not, just copy and paste this into the file.
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MySite Alpha</title>
+    <title>My Resume</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>

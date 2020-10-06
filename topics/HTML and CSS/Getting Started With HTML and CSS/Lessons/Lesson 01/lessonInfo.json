@@ -11,7 +11,7 @@
         "correctAnswer": "head"
       },
       {
-        "question": "Where in html code does you put the site content?",
+        "question": "Where in html code do I put the site content?",
         "type": "multipleChoice",
         "multipleChoiceAnswers": ["head", "body"],
         "correctAnswer": "body"

@@ -18,6 +18,7 @@
       },
       {
         "question": "To add a css stylesheet to my html, I need to create a __________ .",
+        "type": "multipleChoice",
         "multipleChoiceAnswers": ["meta", "link", "title", "script"],
         "correctAnswer": "link"
       },

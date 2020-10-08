@@ -1,9 +1,9 @@
 {
-  "courseTitle": "Getting Started With HTML and CSS",
+  "courseTitle": "Getting Your First Site onto the Web.",
   "courseDescription":
     "Build a webpage, save the code to GitHub and deploy to the web using Netlify.",
   "tags": [
-    "HTML", "CSS", "Git", "GitHub", "Netlify", "CSS Flex", "CSS Grid", "Responsive", "Mobile First"
+    "HTML", "CSS", "Git", "Terminal", "GitHub", "Netlify", "CSS Flex", "CSS Grid", "Responsive", "Mobile First"
   ],
   "supportingArticles": [],
   "supportingLinks": []

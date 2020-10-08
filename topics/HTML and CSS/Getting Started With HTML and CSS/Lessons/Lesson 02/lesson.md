@@ -23,7 +23,7 @@ Things to remember:
 
 - Open up a [terminal](https://www.google.com/search?newwindow=1&hl=en&sxsrf=ACYBGNQRsNnMfcaVap9TBdzlP5hVnZpXXw%3A1578955270617&source=hp&ei=BvIcXpXVI7CLlwT4lID4Cw&q=terminal+app+for&oq=terminal+app+for&gs_l=psy-ab.3..35i39j0i67j0l8.2879.5596..5985...2.0..0.97.1230.16......0....1..gws-wiz.....10..35i362i39j0i131i67j0i131j0i20i263.XzsMR5LwkkI&ved=0ahUKEwiV8JPg0oHnAhWwxYUKHXgKAL8Q4dUDCAg&uact=5) app such as Git Bash (part of [Git for Windows](https://gitforwindows.org/)) on Windows, Terminal or [iTerm2](https://iterm2.com/) on Mac. I'll leave linux users to sort this out themselves...
 - Type `git --version`.
-- You should see something like this: `git version 2.17.1`
+- You should see something like this: `git version 2.28.0`
 - If you get an error, [download](https://git-scm.com/downloads) and install git. Try again until you see the version message (you may have to restart your computer, or at least reopen your terminal after the installation).
 
 Now we have our terminal set up. Next, we are going to use the terminal to create a new place to keep our dev work.
@@ -38,7 +38,7 @@ We've now had a little play with some terminal commands. (I'm going to stop sayi
 - In another window, locate `myResume` and drag it into your `_dev` folder.
 - In your terminal, type `ls` and you should now see `myResume` listed there.
 - Type `cd my` then hit 'tab'. You should see the text autocomplete to `cd myResume`.
-- Type `code .` and the folder should open up inside VSCode. On a Mac, you may need to do [this](https://www.google.com/search?newwindow=1&sxsrf=ACYBGNQ_3djst6XQc9ql3-DBrHdIH7yU0g%3A1579118167355&ei=V24fXsKtFYPpxgOSs53IBQ&q=vscode+install+code+command+in+path&oq=vscode+instal&gs_l=psy-ab.3.0.35i39j0l9.36791.38810..39783...0.4..0.130.1089.11j2......0....1..gws-wiz.......0i71j0i273j0i67j0i131j0i131i273j0i20i263._a_-A792wqw) first.
+- Type `code .` and the folder should open up inside VSCode. On a Mac, you may need to do [this](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) first.
 - If that doesn't work, just open the folder from inside VSCode itself.
 
 Right, so we've done a little bit more terminal fanciness and put our folders where we want them. The next thing we are going to do is to make our folder into a Git repository. That will allow us to easily (lol!) manage our code.

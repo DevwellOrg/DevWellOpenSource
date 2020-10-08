@@ -1,0 +1,38 @@
+{
+  "lessonTitle": "Lesson 02 - Using Git and the Terminal.",
+  "lessonDescription":
+    "Getting started with the Terminal and Git.",
+  "lessonQuiz": {
+    "questions": [
+      {
+        "question": "What is Git for?",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": ["Saving Code", "Editing Code", "Reading Code"],
+        "correctAnswer": "Saving Code"
+      },
+      {
+        "question": "In the terminal, to make a new directory called `myThing`, I should type `__________ myThing`",
+        "type": "input",
+        "correctAnswer": "mkdir"
+      },
+      {
+        "question": "To navigate to a folder in the terminal, I should use the command _______ .",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": ["ls", "cd", "mkdir", "git"],
+        "correctAnswer": "cd"
+      },
+      {
+        "question": "To view the files in a folder in the terminal, I should use the command _______ .",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": ["ls", "cd", "mkdir", "git"],
+        "correctAnswer": "ls"
+      },
+      {
+        "question": "What is the file extension of a markdown file? `._____`",
+        "type": "input",
+        "correctAnswer": "md"
+      }
+
+    ]
+  }
+}

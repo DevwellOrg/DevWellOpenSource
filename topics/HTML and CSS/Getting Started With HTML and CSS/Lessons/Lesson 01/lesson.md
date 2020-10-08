@@ -117,7 +117,13 @@ Well done! You have welcomed people to your new site. Well, nearly... People can
 
 # Course Links
 
+## Editor / Terminal / Git
 - https://code.visualstudio.com/
+- https://git-scm.com
+- https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+## HTML / CSS
 - https://www.w3schools.com/html/html_basic.asp
 - https://www.w3schools.com/html/html_css.asp
 - https://www.w3schools.com/html/html5_semantic_elements.asp

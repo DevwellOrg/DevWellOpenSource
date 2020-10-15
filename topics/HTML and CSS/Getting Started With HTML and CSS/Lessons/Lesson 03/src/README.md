@@ -1,1 +1,1 @@
-Hi. Welcome to the alpha version of my site.
+Hi. Welcome to my resume.

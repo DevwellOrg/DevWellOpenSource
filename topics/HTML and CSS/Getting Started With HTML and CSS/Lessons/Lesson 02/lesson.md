@@ -1,7 +1,9 @@
 # Course Acceptance Criteria
-*As a user, I want to be able to see up to date career information about a software developer.*
+
+_As a user, I want to be able to see up to date career information about a software developer._
 
 ---
+
 # Lesson 2
 
 By the end of this lesson, you will have:
@@ -27,6 +29,7 @@ Things to remember:
 - If you get an error, [download](https://git-scm.com/downloads) and install git. Try again until you see the version message (you may have to restart your computer, or at least reopen your terminal after the installation).
 
 Now we have our terminal set up. Next, we are going to use the terminal to create a new place to keep our dev work.
+
 - In the terminal type `cd ~` and hit enter. This will always take you to your 'user' directory.
 - Type `mkdir _dev` and hit enter. You are making a folder called `_dev`. It DOES NOT have to be called that. But I always make one called that. The underscore helps it to look like something I've created myself. I like it. So there.
 - Type `ls` and hit enter. You will see a list of folders and files in your 'user' folder.
@@ -34,6 +37,7 @@ Now we have our terminal set up. Next, we are going to use the terminal to creat
 - Type `ls` and hit enter. There shouldn't be anything there.
 
 We've now had a little play with some terminal commands. (I'm going to stop saying 'and hit enter' now) Next, we are going to move the folder we created in lesson one, into our `_dev` folder.
+
 - Still inside your `_dev` folder in the terminal, open your file explorer by typing `open .` or `explorer.exe .` The `.` means 'this folder'.
 - In another window, locate `myResume` and drag it into your `_dev` folder.
 - In your terminal, type `ls` and you should now see `myResume` listed there.
@@ -42,12 +46,14 @@ We've now had a little play with some terminal commands. (I'm going to stop sayi
 - If that doesn't work, just open the folder from inside VSCode itself.
 
 Right, so we've done a little bit more terminal fanciness and put our folders where we want them. The next thing we are going to do is to make our folder into a Git repository. That will allow us to easily (lol!) manage our code.
+
 - In the terminal, we should be inside our `myResume` folder.
 - Type, `git init`. You should see a message saying the repository has been initialized. In VSCode, at the bottom left, you should see a little logo and the word `master`. This means we are on the 'master' branch of our repo. This will all make sense eventually!
 
 ![Git Repo](./images/master.png "Master").
 
 Finally, because we haven't written any code in this lesson...
+
 - In VSCode, make a new file called `README.md` . The `.md` stands for 'markdown' and is a nice way to write texty stuff. In fact, I'm writing this lesson out right now in markdown. Well, not right now. In the past. You know what I mean...
 - In the README, put a nice welcome message. This is mine: `Hi. Welcome to my resume.` The README is a key part of any repo and we'll be making great use of it throughout the course.
 
@@ -64,12 +70,16 @@ That's it! Phew... That was a tough one. But totally worth it. You can be a deve
 # Course Links
 
 ## Editor / Terminal / Git
+
 - https://code.visualstudio.com/
 - https://git-scm.com
+- https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+- https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 - https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## HTML / CSS
+
 - https://www.w3schools.com/html/html_basic.asp
 - https://www.w3schools.com/html/html_css.asp
 - https://www.w3schools.com/html/html5_semantic_elements.asp

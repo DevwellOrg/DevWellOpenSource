@@ -1,7 +1,9 @@
 # Course Acceptance Criteria
-*As a user, I want to be able to see up to date career information about a software developer.*
+
+_As a user, I want to be able to see up to date career information about a software developer._
 
 ---
+
 # Lesson 1
 
 Right! Hi. Welcome. So, in this course, we are going to use HTML and CSS to build a basic webpage that can act as a starting developers resume.
@@ -40,6 +42,7 @@ Things to remember:
   <body></body>
 </html>
 ```
+
 If not, just copy and paste this into the file.
 
 - Change the title to `My Resume`
@@ -118,12 +121,16 @@ Well done! You have welcomed people to your new site. Well, nearly... People can
 # Course Links
 
 ## Editor / Terminal / Git
+
 - https://code.visualstudio.com/
 - https://git-scm.com
+- https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+- https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 - https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## HTML / CSS
+
 - https://www.w3schools.com/html/html_basic.asp
 - https://www.w3schools.com/html/html_css.asp
 - https://www.w3schools.com/html/html5_semantic_elements.asp

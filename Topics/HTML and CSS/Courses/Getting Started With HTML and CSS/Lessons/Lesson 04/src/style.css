@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+article {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.maxWidth {
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  max-width: 800px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.siteHeader {
+  background-color: pink;
+  font-size: 2rem;
+  text-align: right;
+  padding: 20px;
+}
+
+.siteMain {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.siteFooter {
+  font-size: 1rem;
+  text-align: right;
+  padding: 20px;
+  background-color: yellowgreen;
+  text-align: right;
+}

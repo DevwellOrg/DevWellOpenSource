@@ -1,0 +1,35 @@
+{
+  "lessonTitle": "Lesson 03 - Uploading to GitHub and Deploying with Netlify.",
+  "lessonDescription": "Save and deploy your code to the web.",
+  "lessonQuiz": {
+    "questions": [
+      {
+        "question": "What is the correct order for uploading your code to GitHub?",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": [
+          "Push >> Stage >> Commit",
+          "Stage >> Commit >> Push",
+          "Commit >> Stage >> Push"
+        ],
+        "correctAnswer": "Stage >> Commit >> Push"
+      },
+      {
+        "question": "What is the usual name for the main branch of a repo?",
+        "type": "input",
+        "correctAnswer": "master"
+      },
+      {
+        "question": "Where did we deploy our code in this lesson?",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": ["GitHub", "Netlify"],
+        "correctAnswer": "Netlify"
+      },
+      {
+        "question": "Where did we save our code in this lesson?",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": ["GitHub", "Netlify"],
+        "correctAnswer": "GitHub"
+      }
+    ]
+  }
+}

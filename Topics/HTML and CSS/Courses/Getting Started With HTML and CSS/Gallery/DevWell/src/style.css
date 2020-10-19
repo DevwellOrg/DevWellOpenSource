@@ -13,8 +13,7 @@ article {
   font-size: 16px;
   background-color: darkslategray;
   color: snow;
-  font-family: 'Roboto',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -70,8 +69,6 @@ article {
     font-size: 3rem;
   }
 }
-
-
 
 .section {
   margin-bottom: 20px;

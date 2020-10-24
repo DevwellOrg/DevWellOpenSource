@@ -1,0 +1,163 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.gridContainer {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.maxWidth {
+  margin: auto;
+  width: calc(100% - 20px);
+  max-width: 800px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+header {
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 20px;
+  background-color: darkslategray;
+  color: snow;
+}
+
+@media only screen and (min-width: 800px) {
+  .siteHeader {
+    font-size: 2rem;
+  }
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  color: snow;
+  padding: 100px 0;
+  overflow: hidden;
+  margin: 0 0 50px;
+  border-top: 25px solid snow;
+  border-bottom: 25px solid snow;
+}
+
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.heroTitle {
+  position: relative;
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  z-index: 2;
+}
+
+.heroSub {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  z-index: 2;
+}
+
+@media only screen and (min-width: 800px) {
+  .heroTitle {
+    font-size: 6rem;
+  }
+
+  .heroSub {
+    font-size: 3rem;
+  }
+}
+
+main {
+  text-align: center;
+  background-color: darkslategray;
+  color: white;
+}
+
+article:last-of-type {
+  margin-bottom: 50px;
+}
+
+.contentTitle {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contentEntry {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 5px solid snow;
+  border-radius: 5px;
+  background-color: snow;
+  color: darkslategray;
+  transition: all 0.3s;
+}
+
+.contentEntry:hover {
+  border: 5px solid snow;
+  background-color: slategray;
+  color: snow;
+}
+
+.contentEntry p {
+  padding: 0;
+  margin: 0 0 5px;
+}
+
+.skills {
+  flex-direction: row;
+}
+
+.skills p {
+  margin: auto 10px auto 0;
+}
+
+.images {
+  margin: auto 10px auto auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  display: flex;
+}
+
+.image img {
+  height: 100%;
+  margin: auto 0 auto auto;
+}
+
+footer {
+  background-color: snow;
+  color: darkslategray;
+  font-size: 1rem;
+  text-align: right;
+  padding: 20px;
+  text-align: right;
+}

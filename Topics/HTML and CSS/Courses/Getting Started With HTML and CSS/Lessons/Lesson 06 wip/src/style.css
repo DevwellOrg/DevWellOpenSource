@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.gridContainer {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+
+  background-color: darkslategray;
+  color: snow;
+}
+
+.maxWidth {
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  max-width: 800px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+header {
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+  .siteHeader {
+    font-size: 2rem;
+  }
+}
+
+main {
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+  background-color: snow;
+  color: darkslategray;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.heroTitle {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.heroSub {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 800px) {
+  .heroTitle {
+    font-size: 6rem;
+  }
+
+  .heroSub {
+    font-size: 3rem;
+  }
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+.contentTitle {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contentEntry {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 5px solid snow;
+  border-radius: 5px;
+  background-color: snow;
+  color: darkslategray;
+}
+
+.contentEntry p {
+  padding: 0;
+  margin: 0 0 5px;
+}
+
+footer {
+  background-color: snow;
+  color: darkslategray;
+  font-size: 1rem;
+  text-align: right;
+  padding: 20px;
+  text-align: right;
+}

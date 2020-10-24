@@ -1,10 +1,35 @@
-# Course Acceptance Criteria
+# Story: HAS-GSWHAS-000
 
-_As a user, I want to be able to see up to date career information about a software developer._
+## Acceptance Criteria
+
+**As a user, I want to be able to see up to date career information about a software developer on the internet.**
 
 ---
 
-# Lesson 3
+_What's this about? At DevWell, we want our courses to mirror real-life development environments as closely as possible. In modern software development, many developers do something called 'Agile', which is a way of organising projects more efficiently._
+
+_As part of Agile, developers often work on 'Stories' that represent some piece of work that has an impact on a user. Hence the 'As a user...' structure of the Story acceptance criteria._
+
+_Our Stories are then split into 'Tasks' that are bits of technical work that move us towards completing the Story. Tasks have 'Subtasks' that have to be completed before that Task can be marked as 'DONE'._
+
+_When all the Tasks are 'DONE', the Story is also 'DONE'._
+
+_Each course is a Story. Each lesson is a Task. Each task can either be 'SELECTED FOR DEVELOPMENT', 'IN PROGRESS' or 'DONE'._
+
+_Note: There are many ways to implement Agile. This is just one of them._
+
+---
+
+**Note:** There are many ways to implement Agile. This is just one of them.
+
+# Task: HAS-GSWHAS-003
+
+## Subtasks
+
+**Push your repo up to GitHub**
+**Deploy your site on Netlify**
+
+# Status: SELECTED FOR DEVELOPMENT
 
 By the end of this lesson, you will have:
 
@@ -14,11 +39,11 @@ By the end of this lesson, you will have:
 Things to remember:
 
 1. This is another lesson where we won't really be coding that much. Next lesson tho...
-2. These are KEY SKILLS used in real devlopment jobs. Especially GitHub.
+2. These are KEY SKILLS used in real development jobs. Especially GitHub.
 3. Netlify is amazing.
 4. Google/DuckDuckGo.
 
-# Let's get started
+# Status: IN PROGRESS
 
 - Go to https://github.com/ and sign up
 - Create a repository called `myResume` ![https](./images/newRepo.png "Make a new repo")
@@ -77,33 +102,37 @@ We are now deployed! But, we have a really lame url like https://upbeat-williams
 
 And we're live! ![Live Site](./images/liveSite.png "Live site")
 
-# Review
+# Status: DONE
 
 Awesome! Our code is now safely on GitHub and our site is now live on the internet. This is an amazing beginning and we'll soon have something that you'll be proud to show off to the world.
 
 Onwards!
 
-## Skills / Technologies
+# Skills / Technologies
 
 - Git
 - Github
 - Deployments
 - Netlify
 
-# Links
+# Lesson Links
 
 - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+- https://github.com
 - https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+- https://www.netlify.com/
 
 # Course Links
 
 ## Editor / Terminal / Git
 
 - https://code.visualstudio.com/
+- https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/
 - https://git-scm.com
 - https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+- https://github.com
 - https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
-- https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/
+- https://www.netlify.com/
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## HTML / CSS

@@ -1,10 +1,32 @@
-# Course Acceptance Criteria
+# Story: HAS-GSWHAS-000
 
-_As a user, I want to be able to see up to date career information about a software developer._
+## Acceptance Criteria
+
+**As a user, I want to be able to see up to date career information about a software developer on the internet.**
 
 ---
 
-# Lesson 1
+_What's this about? At DevWell, we want our courses to mirror real-life development environments as closely as possible. In modern software development, many developers do something called 'Agile', which is a way of organising projects more efficiently._
+
+_As part of Agile, developers often work on 'Stories' that represent some piece of work that has an impact on a user. Hence the 'As a user...' structure of the Story acceptance criteria._
+
+_Our Stories are then split into 'Tasks' that are bits of technical work that move us towards completing the Story. Tasks have 'Subtasks' that have to be completed before that Task can be marked as 'DONE'._
+
+_When all the Tasks are 'DONE', the Story is also 'DONE'._
+
+_Each course is a Story. Each lesson is a Task. Each task can either be 'SELECTED FOR DEVELOPMENT', 'IN PROGRESS' or 'DONE'._
+
+_Note: There are many ways to implement Agile. This is just one of them._
+
+---
+
+# Task: HAS-GSWHAS-001
+
+## Subtasks
+
+**Set up a placeholder webpage using HTML and CSS**
+
+# Status: SELECTED FOR DEVELOPMENT
 
 Right! Hi. Welcome. So, in this course, we are going to use HTML and CSS to build a basic webpage that can act as a starting developers resume.
 
@@ -21,7 +43,7 @@ Things to remember:
 2. If you're stuck, Google it. Or DuckDuckGo it. Googling is absolutely a key skill for a developer.
 3. Don't worry about first principles. You will learn by doing.
 
-# Let's get started
+# Status: IN PROGRESS
 
 - Install VSCode - https://code.visualstudio.com/
 - Create a folder (on your Desktop is probably the easiest place to put it) called `myResume`
@@ -108,15 +130,21 @@ body {
 - At this point, have a play with different colours and sizes until you find something you like.
 - And, we're done!
 
-# Review
+# Status: DONE
 
 Well done! You have welcomed people to your new site. Well, nearly... People can't actually see it yet... But, we'll get to that soon.
 
-## Skills / Technologies
+# Skills / Technologies
 
 - HTML
 - CSS
 - Code Editors
+
+# Lesson Links
+
+- https://code.visualstudio.com/
+- https://www.w3schools.com/html/html_basic.asp
+- https://www.w3schools.com/html/html_css.asp
 
 # Course Links
 

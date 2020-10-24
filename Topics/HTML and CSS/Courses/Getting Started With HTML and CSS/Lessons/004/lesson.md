@@ -1,10 +1,38 @@
-# Course Acceptance Criteria
+# Story: HAS-GSWHAS-000
 
-_As a user, I want to be able to see up to date career information about a software developer._
+## Acceptance Criteria
+
+**As a user, I want to be able to see up to date career information about a software developer on the internet.**
 
 ---
 
-# Lesson 4
+_What's this about? At DevWell, we want our courses to mirror real-life development environments as closely as possible. In modern software development, many developers do something called 'Agile', which is a way of organising projects more efficiently._
+
+_As part of Agile, developers often work on 'Stories' that represent some piece of work that has an impact on a user. Hence the 'As a user...' structure of the Story acceptance criteria._
+
+_Our Stories are then split into 'Tasks' that are bits of technical work that move us towards completing the Story. Tasks have 'Subtasks' that have to be completed before that Task can be marked as 'DONE'._
+
+_When all the Tasks are 'DONE', the Story is also 'DONE'._
+
+_Each course is a Story. Each lesson is a Task. Each task can either be 'SELECTED FOR DEVELOPMENT', 'IN PROGRESS' or 'DONE'._
+
+_Note: There are many ways to implement Agile. This is just one of them._
+
+---
+
+# Task: HAS-GSWHAS-004
+
+## Subtasks
+
+**Outline a basic webpage with a header, main and footer**
+
+**Add some nice fonts**
+
+**Update your code on GitHub**
+
+**Expand your README to include useful information**
+
+# Status: SELECTED FOR DEVELOPMENT
 
 By the end of this lesson, you will have:
 
@@ -19,13 +47,13 @@ Things to remember:
 2. Using Markdown to make engaging READMEs is super-fun
 3. Google/DuckDuckGo.
 
-# Let's get started
+# Status: IN PROGRESS
 
 - ...
 
-# Review
+# Status: DONE
 
-TODO
+...
 
 Onwards!
 

@@ -1,10 +1,38 @@
-# Course Acceptance Criteria
+# Story: HAS-GSWHAS-000
 
-_As a user, I want to be able to see up to date career information about a software developer._
+## Acceptance Criteria
+
+**As a user, I want to be able to see up to date career information about a software developer on the internet.**
 
 ---
 
-# Lesson 2
+_What's this about? At DevWell, we want our courses to mirror real-life development environments as closely as possible. In modern software development, many developers do something called 'Agile', which is a way of organising projects more efficiently._
+
+_As part of Agile, developers often work on 'Stories' that represent some piece of work that has an impact on a user. Hence the 'As a user...' structure of the Story acceptance criteria._
+
+_Our Stories are then split into 'Tasks' that are bits of technical work that move us towards completing the Story. Tasks have 'Subtasks' that have to be completed before that Task can be marked as 'DONE'._
+
+_When all the Tasks are 'DONE', the Story is also 'DONE'._
+
+_Each course is a Story. Each lesson is a Task. Each task can either be 'SELECTED FOR DEVELOPMENT', 'IN PROGRESS' or 'DONE'._
+
+_Note: There are many ways to implement Agile. This is just one of them._
+
+---
+
+**Note:** There are many ways to implement Agile. This is just one of them.
+
+# Task: HAS-GSWHAS-002
+
+## Acceptance Criteria
+
+**As a user, I want to be able to see up to date career information about a software developer on the internet.**
+
+## Subtasks
+
+**Make your webpage folder into a Git repository**
+
+# Status: SELECTED FOR DEVELOPMENT
 
 By the end of this lesson, you will have:
 
@@ -13,7 +41,7 @@ By the end of this lesson, you will have:
 
 Things to remember:
 
-1. These are key skills used in real devlopment jobs.
+1. These are key skills used in real development jobs.
 2. Don't be afraid of the terminal. The terminal is awesome. You'll be using the same commands over and over so don't worry about remembering stuff. You'll get there.
 
 ![Terminal](./images/terminal.png "Terminal")
@@ -21,7 +49,7 @@ Things to remember:
 3. Git is basically a way to save and manage your code. Actually, it's way more powerful than that, but that'll do for now...
 4. As always, if you're stuck, Google it. Or DuckDuckGo it.
 
-# Let's get started
+# Status: IN PROGRESS
 
 - Open up a [terminal](https://www.google.com/search?newwindow=1&hl=en&sxsrf=ACYBGNQRsNnMfcaVap9TBdzlP5hVnZpXXw%3A1578955270617&source=hp&ei=BvIcXpXVI7CLlwT4lID4Cw&q=terminal+app+for&oq=terminal+app+for&gs_l=psy-ab.3..35i39j0i67j0l8.2879.5596..5985...2.0..0.97.1230.16......0....1..gws-wiz.....10..35i362i39j0i131i67j0i131j0i20i263.XzsMR5LwkkI&ved=0ahUKEwiV8JPg0oHnAhWwxYUKHXgKAL8Q4dUDCAg&uact=5) app such as Git Bash (part of [Git for Windows](https://gitforwindows.org/)) on Windows, Terminal or [iTerm2](https://iterm2.com/) on Mac. I'll leave linux users to sort this out themselves...
 - Type `git --version`.
@@ -57,15 +85,20 @@ Finally, because we haven't written any code in this lesson...
 - In VSCode, make a new file called `README.md` . The `.md` stands for 'markdown' and is a nice way to write texty stuff. In fact, I'm writing this lesson out right now in markdown. Well, not right now. In the past. You know what I mean...
 - In the README, put a nice welcome message. This is mine: `Hi. Welcome to my resume.` The README is a key part of any repo and we'll be making great use of it throughout the course.
 
-# Review
+# Status: DONE
 
 That's it! Phew... That was a tough one. But totally worth it. You can be a developer without using a terminal. It can totally be done. But, as you can see, they aren't that scary. As a professional developer, I use the terminal alongside the code editor on a daily basis.
 
-## Skills / Technologies
+# Skills / Technologies
 
 - Terminal / Command Line
 - Git
 - Markdown
+
+# Lesson Links
+
+- https://git-scm.com
+- https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/
 
 # Course Links
 

@@ -1,4 +1,4 @@
-# Story: HAS-GSWHAS-000
+# Story: GSWHAC-000
 
 ## Acceptance Criteria
 
@@ -20,7 +20,7 @@ _Note: There are many ways to implement Agile. This is just one of them._
 
 ---
 
-# Task: HAS-GSWHAS-001
+# Task: GSWHAC-001
 
 ## Subtasks
 
@@ -45,13 +45,19 @@ Things to remember:
 
 # Status: IN PROGRESS
 
-- Install VSCode - https://code.visualstudio.com/
-- Create a folder (on your Desktop is probably the easiest place to put it) called `myResume`
-- Open `myResume` in VSCode
-- Create a file called index.html
-- Inside that file, type `html` and you'll see a magic box appear. Select the option `html:5`
-  ![HTML Emmet](./images/htmlEmmet.png "HTML Emmet")
-- Your code should now look like this:
+Install VSCode - https://code.visualstudio.com/
+
+Create a folder (on your Desktop is probably the easiest place to put it) called `myResume`
+
+Open `myResume` in VSCode
+
+Create a file called index.html
+
+Inside that file, type `html` and you'll see a magic box appear. Select the option `html:5`
+
+![HTML Emmet](./images/htmlEmmet.png "HTML Emmet")
+
+Your code should now look like this:
 
 ```html
 <!DOCTYPE html>
@@ -67,8 +73,9 @@ Things to remember:
 
 If not, just copy and paste this into the file.
 
-- Change the title to `My Resume`
-- Inside the `body` type `Hi, welcome to my site.`
+Change the title to `My Resume`
+
+Inside the `body` type `Hi, welcome to my site.`
 
 ```html
 <!DOCTYPE html>
@@ -84,19 +91,27 @@ If not, just copy and paste this into the file.
 </html>
 ```
 
-- Save the file.
-- Navigate to the index.html file in the folder on your Desktop.
-- Open the file in your browser
-- BEHOLD!
-  ![welcome](./images/welcome.png "Hi, welcome to my site.")
-- Okay, that's not VERY exciting...
-- Notice that tab title matches your HTML title <br/>
+Save the file.
+
+Navigate to the index.html file in the folder on your Desktop.
+
+Open the file in your browser
+
+BEHOLD!
+
+![welcome](./images/welcome.png "Hi, welcome to my site.")
+
+Okay, that's not VERY exciting...
+
+Notice that tab title matches your HTML title <br/>
 
 ## Now to add some styles
 
-- Create a file in the same folder called `style.css`
-- In `index.html` underneath the `<title>`, type `link` and choose the magic `css` option.
-  ![Link](./images/link.png "link")
+Create a file in the same folder called `style.css`
+
+In `index.html` underneath the `<title>`, type `link` and choose the magic `css` option.
+
+![Link](./images/link.png "link")
 
 ```html
 <!DOCTYPE html>
@@ -123,12 +138,17 @@ body {
 }
 ```
 
-- refresh your browser window
-- RE-BEHOLD!
-  ![welcomeStyled](./images/welcomeStyled.png "Hi, welcome to my site. Styled")
-- This color-scheme is both terrible and a tribute to the best ever [Windows Theme](https://www.google.com/search?biw=1718&bih=1359&tbm=isch&sa=1&ei=spocXvOBG9aD1fAPtviV8Ag&q=windows+hotdog&oq=windows+hotdog&gs_l=img.3..0i7i10i30j0i10i24l3.13242.13589..13951...0.0..1.148.381.4j1......0....1..gws-wiz-img.UQh0isAlTew&ved=0ahUKEwjzovW7_4DnAhXWQRUIHTZ8BY4Q4dUDCAc&uact=5)
-- At this point, have a play with different colours and sizes until you find something you like.
-- And, we're done!
+refresh your browser window
+
+RE-BEHOLD!
+
+![welcomeStyled](./images/welcomeStyled.png "Hi, welcome to my site. Styled")
+
+This color-scheme is both terrible and a tribute to the best ever [Windows Theme](https://www.google.com/search?biw=1718&bih=1359&tbm=isch&sa=1&ei=spocXvOBG9aD1fAPtviV8Ag&q=windows+hotdog&oq=windows+hotdog&gs_l=img.3..0i7i10i30j0i10i24l3.13242.13589..13951...0.0..1.148.381.4j1......0....1..gws-wiz-img.UQh0isAlTew&ved=0ahUKEwjzovW7_4DnAhXWQRUIHTZ8BY4Q4dUDCAc&uact=5)
+
+At this point, have a play with different colours and sizes until you find something you like.
+
+And, we're done!
 
 # Status: DONE
 

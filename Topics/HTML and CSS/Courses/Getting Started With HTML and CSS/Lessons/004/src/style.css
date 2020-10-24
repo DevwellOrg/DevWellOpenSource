@@ -7,6 +7,10 @@ body {
   font-weight: 300;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .gridContainer {
   min-height: 100%;
   display: grid;
@@ -14,32 +18,15 @@ body {
   grid-template-columns: 100%;
 }
 
-.maxWidth {
-  margin: 0 auto;
-  width: calc(100% - 20px);
-  max-width: 800px;
-}
-
-.bold {
-  font-weight: 500;
-}
-
 header {
   background-color: pink;
-  font-size: 2rem;
-  text-align: right;
-  padding: 20px;
 }
 
 main {
-  background-color: cornflowerblue;
-  text-align: center;
+  background-color: greenyellow;
 }
 
 footer {
-  font-size: 1rem;
-  text-align: right;
-  padding: 20px;
-  background-color: yellowgreen;
-  text-align: right;
+  background-color: aquamarine;
 }
+""

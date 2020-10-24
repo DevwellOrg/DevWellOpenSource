@@ -1,4 +1,4 @@
-# Story: HAS-GSWHAS-000
+# Story: GSWHAC-000
 
 ## Acceptance Criteria
 
@@ -20,21 +20,20 @@ _Note: There are many ways to implement Agile. This is just one of them._
 
 ---
 
-**Note:** There are many ways to implement Agile. This is just one of them.
-
-# Task: HAS-GSWHAS-003
+# Task: GSWHAC-003
 
 ## Subtasks
 
 **Push your repo up to GitHub**
+
 **Deploy your site on Netlify**
 
 # Status: SELECTED FOR DEVELOPMENT
 
 By the end of this lesson, you will have:
 
-1. Uploaded your site onto GitHub
-2. Deployed your site onto Netlify
+1. Uploaded your site onto GitHub.
+2. Deployed your site onto Netlify.
 
 Things to remember:
 
@@ -45,35 +44,65 @@ Things to remember:
 
 # Status: IN PROGRESS
 
-- Go to https://github.com/ and sign up
-- Create a repository called `myResume` ![https](./images/newRepo.png "Make a new repo")
-- Copy the `HTTPS` git url ![https](./images/httpsGitUrl.png "HTTPS Git url")
-- In the terminal, make sure you are in the `myResume` folder. If you're not, type `cd ~/_dev/myResume`
-- Type / paste `git remote add origin https://github.com/YOURGITHUBUSERNAME/myResume.git`. This will connect your local repo to the GitHub repo.
-- Type `git remote -v` and you will see your url listed. ![git remote](./images/gitRemote.png "git remote -v")
-- We want our computer to remember some of our git details.
-- Type, `git config --global user.name "username"` but change username to your GitHub username.
-- Then type, `git config --global user.email your@emailaddress.com` again with your GitHub email address.
-- Type `git config --global --list` and you should see your name and email address listed here.
+Go to https://github.com/ and sign up
+
+Create a repository called `myResume`
+
+![https](./images/newRepo.png "Make a new repo")
+
+Copy the `HTTPS` git url
+
+![https](./images/httpsGitUrl.png "HTTPS Git url")
+
+In the terminal, make sure you are in the `myResume` folder. If you're not, type `cd ~/_dev/myResume`
+
+Type / paste `git remote add origin https://github.com/YOURGITHUBUSERNAME/myResume.git`. This will connect your local repo to the GitHub repo.
+
+Type `git remote -v` and you will see your url listed.
+
+![git remote](./images/gitRemote.png "git remote -v")
+
+We want our computer to remember some of our git details.
+
+Type, `git config --global user.name "username"` but change username to your GitHub username.
+
+Then type, `git config --global user.email your@emailaddress.com` again with your GitHub email address.
+
+Type `git config --global --list` and you should see your name and email address listed here.
 
 Before we continue, there are some key terms that it would be great to have a handle on when it comes to git.
 
 - 'repo' : the place where our project lives.
+
 - 'commit' : basically deciding that this is code we want to keep. A commit is given a name so that we can look at the history of our commits and (hopefully, if it's a good name!) be able to understand what we did at a glance. This is different from saving. When you save your code, it is being saved locally. A commit makes a new version of the code inside git.
+
 - 'diff' : the difference between your code in its different versions. E.g. between now and your previous commit. Or between any commit and any other commit. VSCode has great tools for seeing these diffs built in. Checking the diff is something you always want to do before making a commit.
+
 - 'staged' : before we make a commit, we have to stage the code. This seems unnecessarily confusing. Because it is! But, you'll get used to it.
 
 For context, this is my own process: look at the diff, decide that yes, this code is 'good', stage the code for that file, look at other files and repeat the process, when all the files I've changed have been staged, make a commit.
 
 Let's go through the process of doing this now:
 
-- Click on the `Source Control` icon on the left in VSCode. You can think of this as the `git` icon. ![Source Control Icon](./images/sourceControlIcon.png "Source Control Icon")
-- You'll notice that there are three files visible. That's because these are the files we've made but haven't 'committed' yet. If you click on them, you can see the 'diff'. In this case, the diff is really simple: nothing --> something.![Source Control](./images/sourceControl.png "Source Control VSCode")
+Click on the `Source Control` icon on the left in VSCode. You can think of this as the `git` icon. ![Source Control Icon](./images/sourceControlIcon.png "Source Control Icon")
 
-- Click on `index.html` and check out the diff. If you are happy, click on the '+' icon to stage the changes for that file. ![Stage index.html](./images/stageIndexDotHtml.png "Stage index.html").
-- Now we have three staged changes. ![Staged Changes](./images/stagedChanges.png "Staged Changes")
-- Write a commit message. It can be whatever you want but it should be something that has meaning in terms of what you were doing at the time. This is mine `index.html, style.css and README.md init`. ![Commit Message](./images/commitMessage.png "Commit Message")
-- Then click on the checkmark to make the commit. ![Checkmark](./images/checkmark.png "Checkmark")
+You'll notice that there are three files visible. That's because these are the files we've made but haven't 'committed' yet. If you click on them, you can see the 'diff'. In this case, the diff is really simple: nothing --> something.![Source Control](./images/sourceControl.png "Source Control VSCode")
+
+Click on `index.html` and check out the diff. If you are happy, click on the '+' icon to stage the changes for that file.
+
+![Stage index.html](./images/stageIndexDotHtml.png "Stage index.html").
+
+Now we have three staged changes.
+
+![Staged Changes](./images/stagedChanges.png "Staged Changes")
+
+Write a commit message. It can be whatever you want but it should be something that has meaning in terms of what you were doing at the time. This is mine `index.html, style.css and README.md init`.
+
+![Commit Message](./images/commitMessage.png "Commit Message")
+
+Then click on the checkmark to make the commit.
+
+![Checkmark](./images/checkmark.png "Checkmark")
 
 This is not the only way to make commits. You can do it all from the [command line](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) if you want to.
 
@@ -87,6 +116,7 @@ I always like to do this from the command line, because it's clear what's happen
 - Go to your repo on GitHub / refresh the page if you already have it open.
 
 TADA!
+
 ![Successful Push](./images/pushed.png "Successful Push")
 
 Finally, we are going to make our amazing site available for the whole world to see!
@@ -98,9 +128,13 @@ Finally, we are going to make our amazing site available for the whole world to 
 
 We are now deployed! But, we have a really lame url like https://upbeat-williams-7e6f71.netlify.app/ or something. Let's change that.
 
-- Click on `Site settings` and then `Change site name`. Choose whatever tickles your fancy. ![Change site name](./images/siteName.png "Change site name").
+- Click on `Site settings` and then `Change site name`. Choose whatever tickles your fancy.
 
-And we're live! ![Live Site](./images/liveSite.png "Live site")
+![Change site name](./images/siteName.png "Change site name").
+
+And we're live!
+
+![Live Site](./images/liveSite.png "Live site")
 
 # Status: DONE
 

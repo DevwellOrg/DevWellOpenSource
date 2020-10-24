@@ -3,6 +3,7 @@
 ## Technologies used while building this site:
 
 - HTML
+- Semantic HTML
 - CSS
 - CSS Grid
 - Google Fonts

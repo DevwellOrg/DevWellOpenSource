@@ -7,7 +7,7 @@ body {
   font-weight: 300;
 }
 
-article {
+.gridContainer {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -24,19 +24,19 @@ article {
   font-weight: 500;
 }
 
-.siteHeader {
+header {
   background-color: pink;
   font-size: 2rem;
   text-align: right;
   padding: 20px;
 }
 
-.siteMain {
+main {
   background-color: cornflowerblue;
   text-align: center;
 }
 
-.siteFooter {
+footer {
   font-size: 1rem;
   text-align: right;
   padding: 20px;

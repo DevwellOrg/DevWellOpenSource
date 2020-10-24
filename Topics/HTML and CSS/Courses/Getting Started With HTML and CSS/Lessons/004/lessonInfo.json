@@ -1,34 +1,40 @@
 {
-  "lessonTitle": "Lesson 03 - Uploading to GitHub and Deploying with Netlify.",
-  "lessonDescription": "Save and deploy your code to the web.",
+  "lessonTitle": "Lesson 04 - Uploading to GitHub and Deploying with Netlify.",
+  "lessonDescription": "Use CSS Grid to make a layout, use Git and GitHub to make a Pull request and merge our code.",
   "lessonQuiz": {
     "questions": [
       {
-        "question": "What is the correct order for uploading your code to GitHub?",
+        "question": "To add Google Fonts to our project, we need to make a change to: ",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": ["HTML", "CSS", "HTML and CSS", "Neither"],
+        "correctAnswer": "HTML and CSS"
+      },
+      {
+        "question": "If we want our HTML code to be more meaningful, improve accessibility and SEO, we should use _______ HTML.",
+        "type": "input",
+        "correctAnswer": "semantic"
+      },
+      {
+        "question": "In the following CSS, how many rows will there be? `grid-template-rows: auto 1fr auto auto auto;`",
+        "type": "multipleChoice",
+        "multipleChoiceAnswers": ["1", "2", "3", "4", "5"],
+        "correctAnswer": "5"
+      },
+      {
+        "question": "How can you make sure there is no space around the outside of an html element? `__________: 0;`",
+        "type": "input",
+        "correctAnswer": "margin"
+      },
+      {
+        "question": "Why do we make Pull Requests?",
         "type": "multipleChoice",
         "multipleChoiceAnswers": [
-          "Push >> Stage >> Commit",
-          "Stage >> Commit >> Push",
-          "Commit >> Stage >> Push"
+          "To give us another chance to review our code",
+          "To make it easy to see what we did in the future",
+          "To help make sure the 'master' branch is always deployable",
+          "All of the above"
         ],
-        "correctAnswer": "Stage >> Commit >> Push"
-      },
-      {
-        "question": "What is the usual name for the main branch of a repo?",
-        "type": "input",
-        "correctAnswer": "master"
-      },
-      {
-        "question": "Where did we deploy our code in this lesson?",
-        "type": "multipleChoice",
-        "multipleChoiceAnswers": ["GitHub", "Netlify"],
-        "correctAnswer": "Netlify"
-      },
-      {
-        "question": "Where did we save our code in this lesson?",
-        "type": "multipleChoice",
-        "multipleChoiceAnswers": ["GitHub", "Netlify"],
-        "correctAnswer": "GitHub"
+        "correctAnswer": "All of the above"
       }
     ]
   }

@@ -178,6 +178,8 @@ Let's update our `index.html` body so it looks something like this:
 </body>
 ```
 
+Make sure to use your own name!
+
 Result:
 
 ![image3](./images/004-03.png "image3")
@@ -357,7 +359,7 @@ body {
 
 ... means that both the html document itself, and body of the document take up 100% of the available space, instead of just growing to fit the content as it was before. That means our `1rf` on the `main` tag causes the `main` to grow to fill up all of the additional space. We now have the layout we want, with a header at the top and a footer at the bottom.
 
-We've go one more problem though. There's an annoying white border around everything that's making the scrollbar appear unnecessarily.
+We've got one more problem though. There's an annoying white border around everything that's making the scrollbar appear unnecessarily.
 
 ![image6](./images/004-06.png "image6")
 
@@ -402,8 +404,6 @@ footer {
 
 Phew! We now have our final layout in place to start building the site properly!
 
-We are nearly done.
-
 Before we move on to the next lesson, I want to update our `README.md` so that it is more meaningful.
 
 `README.md`
@@ -429,7 +429,7 @@ Make sure you put the address of your own site though!
 
 To see what it looks like for real, right click on the `README.md` tab and choose `Open Preview` in VSCode.
 
-![Markdown Preview](./images/markdownPreview.png "Markdown Preview").
+![Markdown Preview](./images/markdownPreview.png "Markdown Preview")
 
 I've used [this guide](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) many times when I forget about formatting / syntax.
 
@@ -460,12 +460,12 @@ Paste it into your `README.md`
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7f2cce1d-8296-4fd9-b203-a1427b762259/deploy-status)](https://app.netlify.com/sites/richardmandsresume/deploys)
 ```
 
-![Status Badge](./images/statusBadge.png "Status Badge").
+![Status Badge](./images/statusBadge.png "Status Badge")
 
 We're ready to make our Pull Request now.
 
 Click on the 'Git' icon in VSCode and take a look at the changes we've made in each file.
-![Git](./images/git.png "Git").
+![Git](./images/git.png "Git")
 
 If you're happy with the changes, stage them.
 
@@ -473,20 +473,21 @@ Add a commit message. I like to include the ticket number and a brief descriptio
 
 Make the commit by clicking on the checkmark.
 
-![Commit](./images/gitCommit.png "Commit").
+![Commit](./images/gitCommit.png "Commit")
 
 Push up your new branch by clicking on the 'Publish Changes' icon next to the branch name.
 
-![Publish Changes](./images/pushIcon.png "Publish Changes").
+![Publish Changes](./images/pushIcon.png "Publish Changes")
 
 Or, you can use the terminal. Type `git push origin GSWHAC-004` and hit return. Make sure you're in the `myResume` folder for this to work.
 
 Now, go to GitHub, and visit the `myResume` repo. You should see something like this:
 
-![Make Pull Request](./images/makePR.png "Make Pull Request").
+![Make Pull Request](./images/makePR.png "Make Pull Request")
 
 Click on 'Compare and pull request'.
-![Make Pull Request](./images/makePR2.png "Make Pull Request").
+
+![Make Pull Request](./images/makePR2.png "Make Pull Request")
 
 You can see that we're making a 'Pull Request' (don't worry about the name, it just means that I want to merge one branch into another branch), for merging our new branch `GSWHAC-004` into master.
 
@@ -494,7 +495,7 @@ Add a meaningful comment and hit 'Create pull request'.
 
 Once that's done, you'll see Netlify do it's thing. Click on the 'deploy-preview' to see if you're code is working properly.
 
-![Merge Pull Request](./images/pipelines.png "Merge Pull Request").
+![Merge Pull Request](./images/pipelines.png "Merge Pull Request")
 
 Something really useful here is the 'Files changed' tab. This is a chance for you to do a final review of your new code before merging.
 
@@ -506,7 +507,7 @@ Finally, once you're happy that the code is good to go, hit 'Merge pull request'
 
 Go to the main page for 'myResume' on GitHub, and you'll now see your updated `README.md` in all its glory, status badge and all.
 
-![Done](./images/done.png "Done").
+![Done](./images/done.png "Done")
 
 Click on the link and you'll see your site has updated automatically once we merged our PR into master!
 
@@ -514,7 +515,7 @@ FIN
 
 # Status: DONE
 
-That was pretty epic... We got a load done and now"
+That was pretty epic... We got a load done and now we're able to make new branches, make pull requests, as well as learning a bunch of useful HTML and CSS. A developer's day isn't just about coding, it's also about being able to use a modern and professional workflow that will almost certainly involve Git and GitHub (or GitLab, BitBucket which are equivalent).
 
 ## Skills / Technologies
 
@@ -524,6 +525,7 @@ That was pretty epic... We got a load done and now"
 - Google Fonts
 - Git
 - Github
+- Pull Requests
 - Markdown
 
 # Lesson Links
